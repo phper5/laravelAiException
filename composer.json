@@ -1,0 +1,30 @@
+{
+    "name": "softdd/apiexception",
+    "description": "api异常处理",
+    "keywords": ["api", "exception", "softdd"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "diandisoft",
+            "email": "coder5@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SoftDD\\ApiException\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "^7|^8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
